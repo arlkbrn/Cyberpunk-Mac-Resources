@@ -1,7 +1,5 @@
 #pragma once
 
-#include <cstdint>
-
 /*
  * Format is based on RED4ext's implementation of Addresses.hpp prior to implementing universal hashes.
  * [https://github.com/wopss/RED4ext.SDK/blob/94e1a89f622d23dd666b04e1bbfc9422d372088e/include/RED4ext/Addresses.hpp]
