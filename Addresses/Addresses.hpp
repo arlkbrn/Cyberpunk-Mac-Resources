@@ -124,6 +124,11 @@ constexpr uintptr_t ISerializable_sub_78 = 0x102e80eec - ImageBase;
 constexpr uintptr_t ISerializable_Counter = 0x109015148 - ImageBase;
 #pragma endregion
 
+#pragma region JobHandle
+constexpr uintptr_t JobHandle_dtor = 0x1048ef628 - ImageBase;
+constexpr uintptr_t JobHandle_Join = 0x1048ef664 - ImageBase;
+#pragma endregion
+
 #pragma region JobInternalHandle
 constexpr uintptr_t JobInternalHandle_Acquire = 0x1048ef44c - ImageBase;
 #pragma endregion
