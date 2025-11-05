@@ -129,7 +129,7 @@ constexpr std::uintptr_t JobQueue_ctor_FromGroup = 0x1048eef9c;
 constexpr std::uintptr_t JobQueue_ctor_FromParams = 0x1048eee34 - ImageBase;
 constexpr std::uintptr_t JobQueue_dtor = 0x1048ef288 - ImageBase;
 constexpr std::uintptr_t JobQueue_Capture = 0x1048ef1b8;
-// constexpr std::uintptr_t JobQueue_SyncWait = 0x0; 
+constexpr std::uintptr_t JobQueue_SyncWait = 0x1048ef144 - ImageBase;
 #pragma endregion
 
 #pragma region Memory
