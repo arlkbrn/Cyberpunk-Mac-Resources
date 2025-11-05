@@ -21,17 +21,17 @@ constexpr uintptr_t CBaseFunction_InternalExecute = 0x102e6dd68 - ImageBase;
 #pragma endregion
 
 #pragma region CBaseRTTIType
-constexpr uintptr_t CBaseRTTIType_sub_80 = 0x102eaa460 - ImageBase; // rtti::IType::SerializeToText
-constexpr uintptr_t CBaseRTTIType_sub_88 = 0x102eaa520 - ImageBase; // rtti::IType::SerializeFromText
-constexpr uintptr_t CBaseRTTIType_sub_90 = 0x102eaa5e8 - ImageBase; // rtti::IType::ReadValue
-constexpr uintptr_t CBaseRTTIType_sub_98 = 0x102eaa790 - ImageBase; // rtti::IType::WriteValue
+constexpr uintptr_t CBaseRTTIType_sub_80 = 0x102eaa460 - ImageBase; // [rtti::IType::SerializeToText]
+constexpr uintptr_t CBaseRTTIType_sub_88 = 0x102eaa520 - ImageBase; // [rtti::IType::SerializeFromText]
+constexpr uintptr_t CBaseRTTIType_sub_90 = 0x102eaa5e8 - ImageBase; // [rtti::IType::ReadValue]
+constexpr uintptr_t CBaseRTTIType_sub_98 = 0x102eaa790 - ImageBase; // [rtti::IType::WriteValue]
 constexpr uintptr_t CBaseRTTIType_sub_A0 = 0x102eaa8f4 - ImageBase;
 #pragma endregion
 
 #pragma region CBitfield
-constexpr uintptr_t CBitfield_Unserialize = 0x102e911d0 - ImageBase; // rtti::BitFieldType::Serialize ?
-constexpr uintptr_t CBitfield_ToString = 0x102e91360 - ImageBase; // rtti::BitFieldType::ToString
-constexpr uintptr_t CBitfield_FromString = 0x102e9145c - ImageBase; // rtti:BitFieldType::FromString
+constexpr uintptr_t CBitfield_Unserialize = 0x102e911d0 - ImageBase; // [rtti::BitFieldType::Serialize ?]
+constexpr uintptr_t CBitfield_ToString = 0x102e91360 - ImageBase; // [rtti::BitFieldType::ToString]
+constexpr uintptr_t CBitfield_FromString = 0x102e9145c - ImageBase; // [rtti:BitFieldType::FromString]
 #pragma endregion
 
 #pragma region CClass
@@ -105,7 +105,7 @@ constexpr uintptr_t CString_ctor_str = 0x10002d9b8;
 #pragma endregion
 
 #pragma region DynArray
-constexpr uintptr_t DynArray_Realloc = 0x1000292e8 - ImageBase; // red::DynamicBuffer::ResizeBuffer
+constexpr uintptr_t DynArray_Realloc = 0x1000292e8 - ImageBase; // [red::DynamicBuffer::ResizeBuffer]
 #pragma endregion
 
 #pragma region Handle
@@ -119,7 +119,7 @@ constexpr uintptr_t IScriptable_DestructValueHolder = 0x102f33bac - ImageBase;
 #pragma endregion
 
 #pragma region ISerializable
-constexpr uintptr_t ISerializable_sub_40 = 0x102e80b54 - ImageBase; // ISerializable::OnSerialize()
+constexpr uintptr_t ISerializable_sub_40 = 0x102e80b54 - ImageBase; // [ISerializable::OnSerialize()]
 constexpr uintptr_t ISerializable_sub_78 = 0x102e80eec - ImageBase;
 constexpr uintptr_t ISerializable_Counter = 0x109015148 - ImageBase;
 #pragma endregion
@@ -202,7 +202,7 @@ constexpr uintptr_t UpdateRegistrar_RegisterBucketUpdate = 0x101e4e5fc - ImageBa
 #pragma endregion
 
 #pragma region LaunchParameters
-constexpr uintptr_t LanuchParameters = 0x10796c2b0 - ImageBase;
+constexpr uintptr_t LaunchParameters = 0x10796c2b0 - ImageBase;
 #pragma endregion
 
 } // namespace RED4ext::Addresses
