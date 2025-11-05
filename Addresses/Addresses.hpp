@@ -124,6 +124,10 @@ constexpr uintptr_t ISerializable_sub_78 = 0x102e80eec - ImageBase;
 constexpr uintptr_t ISerializable_Counter = 0x109015148 - ImageBase;
 #pragma endregion
 
+#pragma region JobInternalHandle
+constexpr uintptr_t JobInternalHandle_Acquire = 0x1048ef44c - ImageBase;
+#pragma endregion
+
 #pragma region JobQueue
 constexpr std::uintptr_t JobQueue_ctor_FromGroup = 0x1048eef9c;
 constexpr std::uintptr_t JobQueue_ctor_FromParams = 0x1048eee34 - ImageBase;
