@@ -129,11 +129,11 @@ constexpr uintptr_t JobInternalHandle_Acquire = 0x1048ef44c - ImageBase;
 #pragma endregion
 
 #pragma region JobQueue
-constexpr std::uintptr_t JobQueue_ctor_FromGroup = 0x1048eef9c;
-constexpr std::uintptr_t JobQueue_ctor_FromParams = 0x1048eee34 - ImageBase;
-constexpr std::uintptr_t JobQueue_dtor = 0x1048ef288 - ImageBase;
-constexpr std::uintptr_t JobQueue_Capture = 0x1048ef1b8;
-constexpr std::uintptr_t JobQueue_SyncWait = 0x1048ef144 - ImageBase;
+constexpr uintptr_t JobQueue_ctor_FromGroup = 0x1048eef9c;
+constexpr uintptr_t JobQueue_ctor_FromParams = 0x1048eee34 - ImageBase;
+constexpr uintptr_t JobQueue_dtor = 0x1048ef288 - ImageBase;
+constexpr uintptr_t JobQueue_Capture = 0x1048ef1b8;
+constexpr uintptr_t JobQueue_SyncWait = 0x1048ef144 - ImageBase;
 #pragma endregion
 
 #pragma region Memory
