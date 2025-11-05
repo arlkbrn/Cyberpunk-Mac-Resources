@@ -1,7 +1,13 @@
 #pragma once
 
+/**
+ * Format is based on TweakXL's Library.hpp
+ * [https://github.com/psiberx/cp2077-tweak-xl/blob/master/src/Red/Addresses/Library.hpp]
+ */
 #include <cstdint>
 
+// Addresses for Cyberpunk 2077 Mac Build, version 2.31.
+// clang-format off
 namespace Red::AddressLib
 {
 constexpr uintptr_t ImageBase = 0x100000000;
@@ -20,4 +26,5 @@ constexpr uintptr_t TweakDB_TryLoad = 0x103b41b58 - ImageBase;
 constexpr uintptr_t TweakDB_CreateRecord = 0x10367e344 - ImageBase; // game::data::AddRecord
 
 constexpr uintptr_t TweakDBID_Derive = 0x1012de92c - ImageBase;
-}
+} // namespace Red::AddressLib
+// clang-format on
