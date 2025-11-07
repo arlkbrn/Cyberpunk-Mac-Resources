@@ -35,8 +35,23 @@ constexpr uintptr_t CBitfield_FromString = 0x102e9145c - ImageBase; // [rtti:Bit
 #pragma endregion
 
 #pragma region CClass
-/* I need to double check hashes on Windows build */
+constexpr uintptr_t CClass_Unserialize = 0x102e94410 - ImageBase; // [rtti::ClassType::Serialize]
+constexpr uintptr_t CClass_ToString = 0x102e92014 - ImageBase; // [rtti::ClassType::ToString]
+constexpr uintptr_t CClass_sub_80 = 0x102e94544 - ImageBase;
+constexpr uintptr_t CClass_sub_88 = 0x102e9474c - ImageBase;
+constexpr uintptr_t CClass_sub_90 = 0x102e93f78 - ImageBase;
+constexpr uintptr_t CClass_sub_98 = 0x102e940f0 - ImageBase;
+constexpr uintptr_t CClass_sub_A0 = 0x102e942b0 - ImageBase;
+constexpr uintptr_t CClass_sub_B0 = 0x102e98d4c - ImageBase;
+constexpr uintptr_t CClass_sub_C0 = 0x102e94c84 - ImageBase;
 constexpr uintptr_t CClass_GetMaxAlignment = 0x102e94978 - ImageBase;
+constexpr uintptr_t CClass_sub_D0 = 0x102e94e18 - ImageBase;
+constexpr uintptr_t CClass_CreateInstance = 0x102e924dc - ImageBase; // [rtti::ClassType::CreateObject]
+constexpr uintptr_t CClass_GetProperty = 0x102e93570 - ImageBase; // [rtti::ClassType::GetProperty]
+constexpr uintptr_t CClass_GetProperties = 0x102e92358 - ImageBase; // [rtti::ClassType::GetProperties]
+constexpr uintptr_t CClass_ClearScriptedData = 0x102e932b8 - ImageBase; // [rtti::ClassType::ClearScriptData]
+constexpr uintptr_t CClass_InitializeProperties = 0x102e92614 - ImageBase; // [rtti::ClassType::InitializeScriptedProperties]
+constexpr uintptr_t CClass_AssignDefaultValuesToProperties = 0x102e92770  - ImageBase; // [rtti::ClassType::InitializeScriptDefaultValues]
 #pragma endregion
 
 #pragma region CClassFunction
