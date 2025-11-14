@@ -77,10 +77,10 @@ constexpr uintptr_t CGlobalFunction_ctor = 0x102e6e630 - ImageBase;
 #pragma endregion
 
 #pragma region CNamePool
-constexpr uintptr_t CNamePool_Get = 0x1012ddb94 - ImageBase;
-constexpr uintptr_t CNamePool_AddPair = 0x1012ddbb8 - ImageBase;
-constexpr uintptr_t CNamePool_AddCString = 0x101048eb4 - ImageBase;
 constexpr uintptr_t CNamePool_AddCstr = 0x1012ddbf4 - ImageBase;
+constexpr uintptr_t CNamePool_AddCString = 0x101048eb4 - ImageBase;
+constexpr uintptr_t CNamePool_AddPair = 0x1012ddbb8 - ImageBase;
+constexpr uintptr_t CNamePool_Get = 0x1012ddb94 - ImageBase;
 #pragma endregion
 
 #pragma region CommandListContext
