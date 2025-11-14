@@ -140,8 +140,11 @@ constexpr uintptr_t IScriptable_DestructValueHolder = 0x102f33bac - ImageBase;
 #pragma endregion
 
 #pragma region ISerializable
+constexpr uintptr_t ISerializable_sub_30 = 0x102e80c98 - ImageBase;
 constexpr uintptr_t ISerializable_sub_40 = 0x102e80b54 - ImageBase; // [ISerializable::OnSerialize()]
 constexpr uintptr_t ISerializable_sub_78 = 0x102e80eec - ImageBase;
+constexpr uintptr_t ISerializable_sub_A0 = 0x102e80e50 - ImageBase;
+constexpr uintptr_t ISerializable_sub_C0 = 0x102e80e28 - ImageBase;
 constexpr uintptr_t ISerializable_Counter = 0x109015148 - ImageBase;
 #pragma endregion
 
