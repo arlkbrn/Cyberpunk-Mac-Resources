@@ -12,7 +12,6 @@ namespace RED4ext::Addresses
 {
 constexpr uintptr_t ImageBase = 0x100000000;
 
-
 #pragma region CBaseFunction
 constexpr uintptr_t CBaseFunction_Handlers = 0x1090153e0 - ImageBase;
 constexpr uintptr_t CBaseFunction_ExecuteScripted = 0x102e6d83c - ImageBase;
