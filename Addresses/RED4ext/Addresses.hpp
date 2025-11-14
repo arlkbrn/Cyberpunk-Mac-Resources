@@ -128,6 +128,21 @@ constexpr uintptr_t Handle_ctor = 0x102dff824 - ImageBase;
 constexpr uintptr_t Handle_DecWeakRef = 0x100915268 - ImageBase;
 #pragma endregion
 
+#pragma region IRenderProxy
+constexpr uintptr_t IRenderProxy_sub_00 = 0x106f857d0 - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_08 = 0x100ea15fc - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_18 = 0x101548928 - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_58 = 0x101548934 - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_60 = 0x10154893c - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_78 = 0x1016ce1e8 - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_80 = 0x1016ce218 - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_88 = 0x1016ce3dc - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_90 = 0x1016ce524 - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_98 = 0x1016ce6a8 - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_A8 = 0x1016ce6d0 - ImageBase;
+constexpr uintptr_t IRenderProxy_sub_B0 = 0x1016ce354 - ImageBase;
+#pragma endregion
+
 #pragma region IScriptable
 constexpr uintptr_t IScriptable_sub_D8 = 0x102f34008 - ImageBase;
 constexpr uintptr_t IScriptable_DestructValueHolder = 0x102f33bac - ImageBase;
