@@ -211,6 +211,12 @@ constexpr uintptr_t BasePackageReader_ReadHeader = 0x102e4a8b0 - ImageBase;
 constexpr uintptr_t ResourceDepot = 0x1086bcc78 - ImageBase;
 #pragma endregion
 
+#pragma region ResourceLoader
+constexpr uintptr_t ResourceLoader = 0x1090151d0 - ImageBase;
+constexpr uintptr_t ResourceLoader_FindTokenFast = 0x102eb2804 - ImageBase; // [res::ResourceLoader::TryAcquireResourceToken_NoLock]
+constexpr uintptr_t ResourceLoader_IssueLoadingRequest = 0x1401de50c - ImageBase; // [res::ResourceLoader::IssueLoadingRequest]
+constexpr uintptr_t ResourceLoader_IssueLoadingRequestByPath = 0x102eb1840 - ImageBase;
+#pragma endregion
 
 #pragma region ResourceReference
 // constexpr uintptr_t ResourceReference_Load = 0x0 - ImageBase; [Hash may be wrong?]
