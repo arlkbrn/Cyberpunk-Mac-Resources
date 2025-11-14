@@ -212,7 +212,7 @@ constexpr uintptr_t ResourceDepot = 0x1086bcc78 - ImageBase;
 #pragma endregion
 
 
-#pragma region ResourceLoader
+#pragma region ResourceReference
 // constexpr uintptr_t ResourceReference_Load = 0x0 - ImageBase; [Hash may be wrong?]
 constexpr uintptr_t ResourceReference_Fetch = 0x102ec3f04 - ImageBase;
 // constexpr uintptr_t ResourceReference_Reset = 0x0 - ImageBase; [Inlined?]
