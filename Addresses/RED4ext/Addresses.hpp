@@ -100,14 +100,6 @@ constexpr uintptr_t CRTTIScriptReferenceType_Set = 0x102ea9a4c - ImageBase;
 constexpr uintptr_t CRTTISystem_Get = 0x102e83aac - ImageBase;
 #pragma endregion
 
-#pragma region CScript
-constexpr uintptr_t CScript_LogError = 0x102f0c278 - ImageBase;
-constexpr uintptr_t CScript_LogWarning = 0x102f0c358 - ImageBase;
-constexpr uintptr_t CScript_LogChannel = 0x102f0c438 - ImageBase;
-constexpr uintptr_t CScript_LogChannelWarning = 0x102f0c668 - ImageBase;
-constexpr uintptr_t CScript_ToStringDEBUG = 0x103b3ebcc - ImageBase;
-#pragma endregion
-
 #pragma region CStack
 constexpr uintptr_t CStack_vtbl = 0x107160908 - ImageBase;
 #pragma endregion
