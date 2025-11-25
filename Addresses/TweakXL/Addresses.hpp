@@ -6,25 +6,25 @@
  */
 #include <cstdint>
 
-// Addresses for Cyberpunk 2077 Mac Build, version 2.31.
+// Addresses for Cyberpunk 2077, version 2.31, Mac, bundle 5314028, build 5314055.
 // clang-format off
 namespace Red::AddressLib
 {
 constexpr uintptr_t ImageBase = 0x100000000;
 
-constexpr uintptr_t Main = 0x100032a18 - ImageBase;
+constexpr uintptr_t Main = 0x100031e18 - ImageBase;
 
-constexpr uintptr_t StatsDataSystem_InitializeRecords = 0x1024d89c4 - ImageBase;
-constexpr uintptr_t StatsDataSystem_InitializeParams = 0x1024d82cc - ImageBase;
-constexpr uintptr_t StatsDataSystem_GetStatRange = 0x1024d989c - ImageBase;
-constexpr uintptr_t StatsDataSystem_GetStatFlags = 0x1024d9060 - ImageBase;
-constexpr uintptr_t StatsDataSystem_CheckStatFlag = 0x1024d8fe4 - ImageBase;
+constexpr uintptr_t StatsDataSystem_InitializeRecords = 0x103a939a0 - ImageBase;
+constexpr uintptr_t StatsDataSystem_InitializeParams = 0x103a932a8 - ImageBase;
+constexpr uintptr_t StatsDataSystem_GetStatRange = 0x103a9472c - ImageBase;
+constexpr uintptr_t StatsDataSystem_GetStatFlags = 0x103a93ef0 - ImageBase;
+constexpr uintptr_t StatsDataSystem_CheckStatFlag = 0x103a93e74 - ImageBase;
 
-constexpr uintptr_t TweakDB_Init = 0x102025e3c - ImageBase;
-constexpr uintptr_t TweakDB_Load = 0x103b3a42c - ImageBase; // game::data::TweakDB::LoadOptimized
-constexpr uintptr_t TweakDB_TryLoad = 0x103b41b58 - ImageBase;
-constexpr uintptr_t TweakDB_CreateRecord = 0x10367e344 - ImageBase; // game::data::AddRecord
+constexpr uintptr_t TweakDB_Init = 0x1035f1bac - ImageBase;
+constexpr uintptr_t TweakDB_Load = 0x102b75570 - ImageBase; // game::data::TweakDB::LoadOptimized
+constexpr uintptr_t TweakDB_TryLoad = 0x102b7cc9c - ImageBase;
+constexpr uintptr_t TweakDB_CreateRecord = 0x1026b8db8 - ImageBase; // game::data::AddRecord
 
-constexpr uintptr_t TweakDBID_Derive = 0x1012de92c - ImageBase;
+constexpr uintptr_t TweakDBID_Derive = 0x103453b14 - ImageBase;
 } // namespace Red::AddressLib
 // clang-format on
