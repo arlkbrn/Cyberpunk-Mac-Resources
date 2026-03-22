@@ -14,7 +14,7 @@ constexpr uintptr_t CBaseEngine_LoadScripts = 0x103d9622c - ImageBase; // Possib
 
 constexpr uintptr_t CGameApplication_AddState = 0x103d8add0 - ImageBase; // [red::GameAppInstance::RegisterState]
 
-constexpr uintptr_t GameInstance_CollectSaveableSystems = 0x0 - ImageBase; // Inlined @ 101f2d870 // Inlined @ 1021fbf90
+// constexpr uintptr_t GameInstance_CollectSaveableSystems = 0x0 - ImageBase; // Inlined @ 101f2d870 // Inlined @ 1021fbf90
 // constexpr uintptr_t Global_ExecuteProcess = 0x0 - ImageBase; // Does not exist in the Mac build
 constexpr uintptr_t GsmState_SessionActive_ReportErrorCode = 0x103f70114 - ImageBase;
 
