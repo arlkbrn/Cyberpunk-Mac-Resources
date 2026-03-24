@@ -82,7 +82,7 @@ constexpr uintptr_t ISerializable_Clone = 0x102144744 - ImageBase;
 constexpr uintptr_t IScriptable_CheckClass = 0x102238a4c - ImageBase;
 constexpr uintptr_t IScriptable_CheckExactClass = 0x102238b1c - ImageBase;
 
-// constexpr uintptr_t JobHandle_Wait = 0x0 - ImageBase; // inlined
+constexpr uintptr_t JobHandle_Wait = 0x1009d477c - ImageBase; // need to wrap as Wait(JobHandle& aJob,0,0xffffffff)
 
 constexpr uintptr_t Localization_LoadOnScreens = 0x102f67db4 - ImageBase;
 
